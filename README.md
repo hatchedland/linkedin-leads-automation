@@ -25,9 +25,6 @@ A tool for automating the process of collecting and managing LinkedIn leads, usi
 2.  Activate the virtual environment using `source venv/bin/activate`.
 3.  Install the Python dependencies using `pip install -r requirements.txt`.
 
-### JavaScript Dependencies
-
-1.  Install the dependencies using `npm install`.
 
 ### Running the Scripts
 
