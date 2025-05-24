@@ -4,10 +4,10 @@ import os
 # ------------------------------------------------------------
 # CONFIG – adjust only if your paths change
 # ------------------------------------------------------------
-BASE_DIR   = r"C:\Users\khush\Linkedn-account-2"
-FILE_ONE   = os.path.join(BASE_DIR, "leads.json")
-FILE_TWO   = os.path.join(BASE_DIR, "leads2.json")
-OUTPUT     = os.path.join(BASE_DIR, "combined-leads.json")
+
+FILE_ONE   =  "./leads.json"
+FILE_TWO   = "./leads2.json"
+OUTPUT     =  "./combined-leads.json"
 
 # ------------------------------------------------------------
 # Helper to load a JSON array safely

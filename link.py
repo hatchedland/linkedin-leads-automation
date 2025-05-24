@@ -4,10 +4,9 @@ from datetime import datetime
 # -------------------------------------------------
 # 1. PATHS
 # -------------------------------------------------
-BASE_DIR   = r"C:\Users\khush\Linkedn-account-2"
-COMBINED   = os.path.join(BASE_DIR, "combined-leads.json")
-NEW_USERS  = os.path.join(BASE_DIR, "new_users.json")
-UNIQUE_OUT = os.path.join(BASE_DIR, "unique_leads.json")   # <- NEW
+COMBINED   =  "./combined-leads.json"
+NEW_USERS  = "./new_users.json"
+UNIQUE_OUT =  "./unique_leads.json" # <- NEW
 
 # -------------------------------------------------
 # 2. Util – normalise phone to last 10 digits
