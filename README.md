@@ -22,10 +22,10 @@ A tool for automating the process of collecting and managing LinkedIn leads, usi
 ### Python Virtual Environment
 
 1.  Create a virtual environment using `python3 -m venv venv`.
-2.  Activate the virtual environment using `source venv/bin/activate`.
+2.  Activate the virtual environment using `venv/Scripts/activate`.
 3.  Install the Python dependencies using `pip install -r requirements.txt`.
 
 
 ### Running the Scripts
 
-1.  Run the `run_scripts.sh` script using `./run_scripts.sh`. The script will install the Python dependencies from the `requirements.txt` file.
+1.  Run the `run_scripts.sh` script using git bash, run the following command `./run_scripts.sh`. The script will install the Python dependencies from the `requirements.txt` file.
