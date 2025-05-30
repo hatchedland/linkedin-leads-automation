@@ -4,3 +4,5 @@
 /venv
 /linkedin_user_data
 serviceAccountKey.json
+
+*.bak

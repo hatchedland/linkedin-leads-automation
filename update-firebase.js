@@ -28,7 +28,7 @@ async function updateFirestoreDocuments(dataset) {
 }
 
 async function main() {
-  const inputFilePath = 'new_users.json';
+  const inputFilePath = './unique_leads.json';
   const dataset = loadDataset(inputFilePath);
   await updateFirestoreDocuments(dataset);
 }

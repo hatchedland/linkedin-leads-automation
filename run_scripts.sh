@@ -1,12 +1,8 @@
 # environment setup
-npm install
-source venv/bin/activate
-pip install -r requirements.txt
 
 # scripts
 python leads.py
 rm -rf linkedin_user_data
-python leads2.py
 # exporting new_users
 node export-collection.js
 python link.py
