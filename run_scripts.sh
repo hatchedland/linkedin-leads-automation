@@ -3,8 +3,6 @@
 # scripts
 python leads.py
 rm -rf linkedin_user_data
-python leads2.py
-python merge.py
 # exporting new_users
 node export-collection.js
 python link.py

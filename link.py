@@ -4,8 +4,8 @@ from datetime import datetime
 # -------------------------------------------------
 # 1. PATHS
 # -------------------------------------------------
-COMBINED   =  "./combined-leads.json"
-NEW_USERS  = "./new_users.json"
+COMBINED   =  "./leads.json"
+NEW_USERS  = "./backups/new_users.json"
 UNIQUE_OUT =  "./unique_leads.json" # <- NEW
 
 # -------------------------------------------------
